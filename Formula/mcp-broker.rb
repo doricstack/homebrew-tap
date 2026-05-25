@@ -7,8 +7,8 @@ class McpBroker < Formula
   sha256 "e61bfc31ea099a04f74a59186c3cb2e6836c243cff4688221aa37730084a5bf3"
   license "Apache-2.0"
 
-  depends_on "libyaml"
   depends_on "rust" => :build
+  depends_on "libyaml"
   depends_on "python"
 
   resource "attrs" do
