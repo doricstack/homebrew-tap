@@ -8,8 +8,8 @@ class McpBroker < Formula
   license "Apache-2.0"
 
   depends_on "libyaml"
-  depends_on "python"
   depends_on "rust" => :build
+  depends_on "python"
 
   resource "attrs" do
     url "https://files.pythonhosted.org/packages/6b/5c/685e6633917e101e5dcb62b9dd76946cbb57c26e133bae9e0cd36033c0a9/attrs-25.4.0.tar.gz"
