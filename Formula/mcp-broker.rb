@@ -3,8 +3,8 @@ class McpBroker < Formula
 
   desc "Local MCP broker for sharing upstream MCP servers across agent sessions"
   homepage "https://github.com/NavinAgrawal/mcp-broker"
-  url "https://files.pythonhosted.org/packages/e8/0a/5842b00affc481deab3f16de657cc78489a272c5ece5102509bd0e30bc75/mcp_broker-1.0.0.tar.gz"
-  sha256 "5072079fbe9f28746877ab557099242ebef2f9397339728c4df2886de6e41506"
+  url "https://files.pythonhosted.org/packages/31/04/75770b187f06e1c28ad97e43b01c7842826348188b29e6f23686838bb7e0/mcp_broker-1.1.0.tar.gz"
+  sha256 "3af6414f242b05f56c6771cc3b704889b78c6574e2583861e9beab354be124c0"
   license "Apache-2.0"
 
   depends_on "rust" => :build
@@ -12,13 +12,13 @@ class McpBroker < Formula
   depends_on "python"
 
   resource "attrs" do
-    url "https://files.pythonhosted.org/packages/6b/5c/685e6633917e101e5dcb62b9dd76946cbb57c26e133bae9e0cd36033c0a9/attrs-25.4.0.tar.gz"
-    sha256 "16d5969b87f0859ef33a48b35d55ac1be6e42ae49d5e853b597db70c35c57e11"
+    url "https://files.pythonhosted.org/packages/9a/8e/82a0fe20a541c03148528be8cac2408564a6c9a0cc7e9171802bc1d26985/attrs-26.1.0.tar.gz"
+    sha256 "d03ceb89cb322a8fd706d4fb91940737b6642aa36998fe130a9bc96c985eff32"
   end
 
   resource "jsonschema" do
-    url "https://files.pythonhosted.org/packages/74/69/f7185de793a29082a9f3c7728268ffb31cb5095131a9c139a74078e27336/jsonschema-4.25.1.tar.gz"
-    sha256 "e4a9655ce0da0c0b67a085847e00a3a51449e1157f4f75e9fb5aa545e122eb85"
+    url "https://files.pythonhosted.org/packages/b3/fc/e067678238fa451312d4c62bf6e6cf5ec56375422aee02f9cb5f909b3047/jsonschema-4.26.0.tar.gz"
+    sha256 "0c26707e2efad8aa1bfc5b7ce170f3fccc2e4918ff85989ba9ffa9facb2be326"
   end
 
   resource "jsonschema-specifications" do
@@ -37,8 +37,8 @@ class McpBroker < Formula
   end
 
   resource "rpds-py" do
-    url "https://files.pythonhosted.org/packages/98/33/23b3b3419b6a3e0f559c7c0d2ca8fc1b9448382b25245033788785921332/rpds_py-0.29.0.tar.gz"
-    sha256 "fe55fe686908f50154d1dc599232016e50c243b438c3b7432f24e2895b0e5359"
+    url "https://files.pythonhosted.org/packages/20/af/3f2f423103f1113b36230496629986e0ef7e199d2aa8392452b484b38ced/rpds_py-0.30.0.tar.gz"
+    sha256 "dd8ff7cf90014af0c0f787eea34794ebf6415242ee1d6fa91eaba725cc441e84"
   end
 
   resource "typing-extensions" do
