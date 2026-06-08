@@ -47,6 +47,7 @@ class McpBroker < Formula
   end
 
   def install
+    ENV["MCP_BROKER_VERSION"] = version.to_s
     virtualenv_install_with_resources
   end
 
