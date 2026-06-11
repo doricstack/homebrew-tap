@@ -3,8 +3,8 @@ class McpBroker < Formula
 
   desc "Local MCP broker for sharing upstream MCP servers across agent sessions"
   homepage "https://github.com/NavinAgrawal/mcp-broker"
-  url "https://files.pythonhosted.org/packages/a3/2b/bc0b7c9045b1f119bbec8a6efe1b8e4f70e1833d12327972738f1ccc657b/mcp_broker-1.3.1.tar.gz"
-  sha256 "aa9656d4aadeef0a1a0dec73b50a89a711d700f71e4162923ebb1e41c6e2bdb9"
+  url "https://files.pythonhosted.org/packages/89/9b/397113526721801b0bb23d37ed993cda30398244276bad3dbe3cf21380df/mcp_broker-1.4.0.tar.gz"
+  sha256 "17a180ce7e2876b0753518684501b6bb902a9e16ad3ba30f05ecbd808270436e"
   license "Apache-2.0"
 
   depends_on "rust" => :build
